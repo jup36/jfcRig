@@ -116,6 +116,7 @@ window.update() #update TCL tasks to make window appear
 #############################################################################    
 
 try:
+    print('Press Ctrl-C to exit early and save video')
     cam.BeginAcquisition()
     tStart = time.time()
     i = 0
